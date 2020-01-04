@@ -4,7 +4,7 @@ In this assignment, you will edit a Java class by adding two methods that return
 ## Steps
 
 1. Clone the GitHub Repository to your computer
-1. Open the GitHubGreeter.java file in your favorite editor/IDE
+1. Find and open the `GitHubGreeter.java` file in your favorite editor/IDE
 1. Add a new method to the class called `welcome` that returns a `String` and accepts one `String` parmeter. The returned value should look like this, `Welcome to GitHub, <name parameter>.` Remember to `git commit`!
 1. Add another method called `wishes` that takes no parameters and returns a `String` of the form, `Have a great semester in CSC 241!`
 1. Run the `main` method in the `Main` class to test your program. Again, make sure to `git commit`!
