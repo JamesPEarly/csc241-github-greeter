@@ -19,7 +19,7 @@ class GitHubGreeterTest {
     @Test
     void testWelcome() {
 // Test the welcome String
-        String expected = "Welcome to GitHub, James";
+        String expected = "Welcome to GitHub, James.";
         GitHubGreeter gg = new GitHubGreeter();
         String actual = gg.welcome("James");
         assertTrue(actual.equals(expected), "\n\tExpected: " + expected + "\n\t  Actual: " + actual + "\n");
