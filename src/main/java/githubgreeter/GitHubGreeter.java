@@ -6,7 +6,12 @@ package githubgreeter;
 public class GitHubGreeter {
 
   // Write the welcome method here
+  public String welcome(String name) {
+    return "Welcome to GitHub, " + name + ".";
+  }
 
   // Write the wishes method here
-
+  public String wishes(){
+    return "Have a great semester in CSC 241!";
+  }
 }
