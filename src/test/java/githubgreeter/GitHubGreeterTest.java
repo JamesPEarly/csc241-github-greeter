@@ -22,7 +22,7 @@ class GitHubGreeterTest {
         String expected = "Welcome to GitHub, James.";
         GitHubGreeter gg = new GitHubGreeter();
         String actual = gg.welcome("James");
-        assertTrue(actual.equals(expected), "\n\tExpected: " + expected + "\n\t  Actual: " + actual + "\n");
+        assertEquals(expected,actual);
     }
 
     @Test
@@ -31,7 +31,7 @@ class GitHubGreeterTest {
         String expected = "Have a great semester in CSC 241!";
         GitHubGreeter gg = new GitHubGreeter();
         String actual = gg.wishes();
-        assertTrue(actual.equals(expected), "\n\tExpected: " + expected + "\n\t  Actual: " + actual + "\n");
+        assertEquals(expected,actual);
     }
 
 }
