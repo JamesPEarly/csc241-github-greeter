@@ -16,4 +16,5 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Loggly
+      if: always()
       run: "curl -H \"content-type:application/json\" -d '{ \"repository\" : \"${{ github.repository }}\", \"branch\" : \"${{ github.ref }}\" , \"sha\" : \"${{ github.sha }}\", \"actor\" : \"${{ github.actor }}\", \"status\" : \"${{ job.status }}\" }' ${{ secrets.loggly_url }}"
