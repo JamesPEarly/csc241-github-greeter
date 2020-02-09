@@ -15,7 +15,5 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Echo
-      run: echo ${{ github.sha }}, ${{ job.status }}, ${{ github.actor }}
-    - name: Curl
-      run: curl -H "content-type:application/json" -d '{ "repository" : ${{ github.repository }} , "sha" : ${{ github.sha }}, "actor" : ${{ github.actor }} , "status" : ${{ job.status }} }' http://logs-01.loggly.com/inputs/c81c1faa-7afe-42b1-a8c2-1193bb7ff6c1/tag/http/
+    - name: Try cURL
+      run: "curl -H \"content-type:application/json\" -d '{ \"message\" : \"hello\" }' http://logs-01.loggly.com/inputs/c81c1faa-7afe-42b1-a8c2-1193bb7ff6c1/tag/http/"
