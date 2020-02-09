@@ -15,5 +15,5 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: ./gradlew build
-    - name: Try cURL
-      run: "curl -H \"content-type:application/json\" -d '{ \"repostory\" : \"${{ github.repository }}\", \"sha\" : \"${{ github.sha }}\", \"actor\" : \"${{ github.actor }}\", \"status\" : \"${{ job.status }}\" }' http://logs-01.loggly.com/inputs/c81c1faa-7afe-42b1-a8c2-1193bb7ff6c1/tag/http/"
+    - name: Loggly
+      run: "curl -H \"content-type:application/json\" -d '{ \"repository\" : \"${{ github.repository }}\", \"sha\" : \"${{ github.sha }}\", \"actor\" : \"${{ github.actor }}\", \"status\" : \"${{ job.status }}\" }' http://logs-01.loggly.com/inputs/c81c1faa-7afe-42b1-a8c2-1193bb7ff6c1/tag/http/"
