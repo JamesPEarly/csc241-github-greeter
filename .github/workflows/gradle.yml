@@ -16,4 +16,4 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Echo
-      run: echo $GITHUB_SHA
+      run: echo ${{ github.sha }}, ${{ job.status }}, ${{ github.actor }}
