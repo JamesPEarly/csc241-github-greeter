@@ -7,12 +7,12 @@ public class GitHubGreeter {
 
   public String welcome(String name){
     // Uncomment line below...
-    return "Welcome to GitHub, " + name;
+    // return "Welcome to GitHub, " + name;
   }
 
 public String wishes(){
   // Uncomment line below...
-  return "I hope you enjoy the class!";
+  // return "I hope you enjoy the class!";
   }
 
 }
