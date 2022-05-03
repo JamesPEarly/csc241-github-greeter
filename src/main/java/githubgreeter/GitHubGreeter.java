@@ -11,7 +11,7 @@ public class GitHubGreeter {
 
 public String wishes(){
   // Uncomment line below...
-  return "I hope you enjoy the class!"
+  return "I hope you enjoy the class!";
   }
 
 }
