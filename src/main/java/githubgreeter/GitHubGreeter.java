@@ -5,8 +5,13 @@ package githubgreeter;
 
 public class GitHubGreeter {
 
-  // Write the welcome method here
+  public String greeting(String name){
+    // Uncomment line below...
+    return "Welcome to GitHub, " + name;
 
-  // Write the wishes method here
+public String wishes(){
+  // Uncomment line below...
+  return "I hope you enjoy the class!"
+  }
 
 }
