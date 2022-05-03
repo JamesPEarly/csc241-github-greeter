@@ -5,7 +5,7 @@ package githubgreeter;
 
 public class GitHubGreeter {
 
-  public String greeting(String name){
+  public String welcome(String name){
     // Uncomment line below...
     return "Welcome to GitHub, " + name;
   }
