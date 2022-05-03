@@ -8,6 +8,7 @@ public class GitHubGreeter {
   public String greeting(String name){
     // Uncomment line below...
     return "Welcome to GitHub, " + name;
+  }
 
 public String wishes(){
   // Uncomment line below...
