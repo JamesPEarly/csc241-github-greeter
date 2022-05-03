@@ -28,7 +28,7 @@ class GitHubGreeterTest {
     @Test
     void testWishes() {
 // Test the welcome String
-        String expected = "Have a great semester in CSC 241!";
+        String expected = "I hope you enjoy the class!";
         GitHubGreeter gg = new GitHubGreeter();
         String actual = gg.wishes();
         assertEquals(expected,actual);
