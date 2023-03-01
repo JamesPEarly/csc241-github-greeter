@@ -14,7 +14,7 @@ and accepts one `String` parameter. The returned value should look like
 this, `Welcome to GitHub, <name parameter>.` Remember 
 to [`git commit`](https://git-scm.com/docs/git-commit)!
 4. Add another method called `wishes` that takes no parameters and 
-returns a `String` of the form, `I hope you enjoy your class!`
+returns a `String` of the form, `I hope you enjoy the class!`
 5. Run the `main` method in the `Main` class to test your program. Again, 
 make sure to `git commit`!
 6. When you are confident that it is working, 
